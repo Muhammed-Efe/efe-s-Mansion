@@ -3,3 +3,17 @@ The World Pack For Minecraft Java 1.20.1
 PLEASE READ❗ README❗ ⤴️
 CHECK GUIDE.PNG PLEASE‼️‼️
 ©️
+ # 🤖 Jarvis Project v2.0.0
+Muhammed Efe tarafından geliştirilen, gelişmiş Minecraft asistan sistemi.
+
+## ⚡ Özellikler
+* **Taktik Radar:** 20 blok çevredeki tehditleri algılar.
+* **Güvenlik Sistemi:** Yetkisiz kullanıcıları otomatik uzaklaştırır.
+
+## 🛠️ Kurulum
+1. Datapack klasörüne dosyaları atın.
+2. Oyun içinde `/tag @s add asistan_admin` yazarak kendinizi yetkilendirin.
+3.Creative Moda Geçip Elinize Komut Bloğu Alarak Komut Bloğu Düzenleyebilir Veya Ekleyebilirsiniz
+
+## 🔗 Linkler
+[Geliştirici GitHub](https://github.com/MuhammedEfe)
