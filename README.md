@@ -16,4 +16,5 @@ Muhammed Efe tarafından geliştirilen, gelişmiş Minecraft asistan sistemi.
 3.Creative Moda Geçip Elinize Komut Bloğu Alarak Komut Bloğu Düzenleyebilir Veya Ekleyebilirsiniz
 
 ## 🔗 Linkler
-[Geliştirici GitHub](https://github.com/Muhammed-Efe)
+[GitHub Account](https://github.com/Muhammed-Efe)
+[İnstagram Account](https://instagram.com/efes_mansion
