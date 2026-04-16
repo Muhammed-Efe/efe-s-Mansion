@@ -6,216 +6,81 @@
     <title>Efe's Mansion | Jarvis OS</title>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        :root {
-            --jarvis-green: #00ff88;
-            --dark-bg: #0a0a0a;
-            --card-bg: #111111;
-        }
-
-        body {
-            background-color: var(--dark-bg);
-            color: white;
-            font-family: 'JetBrains Mono', monospace;
-            margin: 0;
-            padding: 0;
-            overflow-x: hidden;
-        }
-
-        /* Sistem Başlatma Ekranı (Videonun Başındaki Kısım) */
-        .terminal-header {
+        :root { --jarvis-green: #00ff88; --dark-bg: #0a0a0a; }
+        body { background-color: var(--dark-bg); color: white; font-family: 'JetBrains Mono', monospace; margin: 0; }
+        
+        /* Terminal Yazı Efekti Alanı */
+        #terminal {
             background: #000;
             padding: 20px;
+            color: var(--jarvis-green);
+            min-height: 150px;
             border-bottom: 2px solid var(--jarvis-green);
-            color: var(--jarvis-green);
-            font-size: 14px;
-            line-height: 1.6;
-            margin-bottom: 40px;
-        }
-
-        .container {
-            max-width: 600px;
-            margin: auto;
-            padding: 20px;
-        }
-
-        .main-title {
-            font-family: 'Orbitron', sans-serif;
-            font-size: 28px;
-            text-align: center;
-            margin-bottom: 5px;
-            letter-spacing: 2px;
-        }
-
-        .version-badge {
-            background: rgba(0, 255, 136, 0.1);
-            color: var(--jarvis-green);
-            border: 1px solid var(--jarvis-green);
-            display: inline-block;
-            padding: 5px 15px;
-            border-radius: 20px;
-            font-size: 12px;
-            margin-bottom: 15px;
-        }
-
-        /* Kart Yapısı */
-        .card {
-            background: var(--card-bg);
-            border: 1px solid #333;
-            border-radius: 12px;
-            padding: 20px;
             margin-bottom: 20px;
-            transition: 0.3s;
         }
 
-        .card:hover {
-            border-color: var(--jarvis-green);
-            box-shadow: 0 0 15px rgba(0, 255, 136, 0.2);
-        }
-
-        .feature-icon {
-            color: var(--jarvis-green);
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
-
-        /* Butonlar */
-        .btn {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-            width: 100%;
-            padding: 15px;
-            margin: 10px 0;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: bold;
-            font-family: 'Orbitron', sans-serif;
-            transition: 0.3s;
-        }
-
-        .btn-download {
-            background: var(--jarvis-green);
-            color: #000;
-        }
-
-        .btn-github {
-            background: transparent;
-            color: white;
-            border: 1px solid #444;
-        }
-
-        .btn:hover {
-            transform: scale(1.02);
-            box-shadow: 0 0 20px rgba(0, 255, 136, 0.3);
-        }
-
-        /* İstatistikler */
-        .stats {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
-            margin: 20px 0;
-        }
-
-        .stat-item {
-            text-align: center;
-            border-top: 2px solid #333;
-            padding-top: 10px;
-        }
-
-        .stat-value {
-            color: var(--jarvis-green);
-            font-weight: bold;
-            display: block;
-        }
-
-        /* İletişim */
-        .contact-box {
-            text-align: left;
-            font-size: 14px;
-        }
-
-        .contact-link {
-            color: var(--jarvis-green);
-            text-decoration: none;
-            display: block;
-            margin-top: 10px;
-            background: #1a1a1a;
-            padding: 10px;
-            border-radius: 5px;
-        }
-
-        footer {
-            text-align: center;
-            padding: 40px;
-            font-size: 12px;
-            color: #555;
-        }
+        .container { max-width: 600px; margin: auto; padding: 20px; text-align: center; }
+        .version-badge { border: 1px solid var(--jarvis-green); color: var(--jarvis-green); padding: 5px 15px; border-radius: 20px; font-size: 12px; }
+        .main-title { font-family: 'Orbitron', sans-serif; font-size: 2.5rem; margin-top: 20px; }
+        .card { background: #111; border: 1px solid #333; padding: 20px; border-radius: 12px; margin: 15px 0; text-align: left; }
+        .btn { display: block; padding: 15px; margin: 10px 0; border-radius: 8px; text-decoration: none; font-weight: bold; text-align: center; }
+        .btn-green { background: var(--jarvis-green); color: #000; }
+        .contact-link { color: var(--jarvis-green); text-decoration: none; display: block; margin-top: 10px; }
     </style>
 </head>
 <body>
 
-    <div class="terminal-header">
-        ● JARVIS SYSTEM<br>
-        > JARVIS v2.0.0 — Sistem Başlatılıyor...<br>
-        > Redstone devreleri kontrol ediliyor... [OK]<br>
-        > Işık otomasyonu modülü yükleniyor... [OK]<br>
-        > Asistan sistemi aktif.<br>
-        > HOŞ GELDİNİZ, MUHAMMED EFE.
-    </div>
+    <div id="terminal"></div>
 
     <div class="container">
-        <center>
-            <div class="version-badge">JAVA EDITION 1.20.1</div>
-            <h1 class="main-title">Efe's Mansion</h1>
-            <p style="color: #888;">Akıllı Minecraft Haritası</p>
-        </center>
+        <div class="version-badge">JAVA EDITION 1.20.1</div>
+        <h1 class="main-title">Efe's Mansion</h1>
+        <p style="color: #888;">Akıllı Minecraft Haritası</p>
 
-        <a href="#" class="btn btn-download">📥 Hemen İndir</a>
-        <a href="https://github.com/KULLANICI_ADIN" class="btn btn-github">📂 GitHub'da Gör</a>
+        <a href="#" class="btn btn-green">📥 Haritayı İndir</a>
+        <a href="https://github.com/Muhammed-Efe/efe-s-Mansion/releases" class="btn" style="border: 1px solid #444; color: white;">📂 GitHub'da Gör</a>
 
-        <div class="stats">
-            <div class="stat-item">
-                <span class="stat-value">1.20.1</span>
-                <small>VERSİYON</small>
-            </div>
-            <div class="stat-item">
-                <span class="stat-value">AKTİF</span>
-                <small>SİSTEM</small>
-            </div>
-            <div class="stat-item">
-                <span class="stat-value">100%</span>
-                <small>REDSTONE</small>
-            </div>
-        </div>
-
-        <h2 style="font-family: 'Orbitron'; font-size: 18px;">Neler Var?</h2>
-        
         <div class="card">
-            <div class="feature-icon">⚡</div>
-            <h3>Işık Otomasyonu</h3>
-            <p style="color: #aaa; font-size: 14px;">Gece/gündüz döngüsüne göre malikane ışıkları akıllıca yönetilir. Müdahaleye gerek yok.</p>
+            <h3 style="color:var(--jarvis-green)">⚡ Işık Otomasyonu</h3>
+            <p style="font-size:14px; color:#aaa;">Gece/gündüz döngüsüne göre tüm malikane ışıkları Jarvis tarafından yönetilir.</p>
         </div>
 
         <div class="card">
-            <div class="feature-icon">🤖</div>
-            <h3>Jarvis v2.0</h3>
-            <p style="color: #aaa; font-size: 14px;">Komut tabanlı gelişmiş asistan. Kapılar, asansörler ve savunma sistemleri onun kontrolünde.</p>
-        </div>
-
-        <div class="card contact-box">
-            <h3>📩 İletişim</h3>
-            <p>Geri bildirimleriniz için ulaşabilirsiniz:</p>
+            <h3 style="color:var(--jarvis-green)">📩 İletişim</h3>
             <a href="mailto:muhammedefafalcon@gmail.com" class="contact-link">muhammedefafalcon@gmail.com</a>
-            <div class="contact-link">📞 +90 533 XXX XX XX</div>
         </div>
-
-        <footer>
-            © 2026 Muhammed Efe | All Rights Reserved.
-        </footer>
     </div>
 
+    <script>
+        // Yazma Efekti Fonksiyonu
+        const lines = [
+            "● JARVIS SYSTEM ONLINE",
+            "> JARVIS v2.0.0 — Sistem Başlatılıyor...",
+            "> Redstone devreleri kontrol ediliyor... [OK]",
+            "> Işık otomasyonu modülü yükleniyor... [OK]",
+            "> Asistan sistemi aktif.",
+            "> HOŞ GELDİNİZ, Kullanıcı."
+        ];
+
+        let lineIndex = 0;
+        let charIndex = 0;
+        const terminal = document.getElementById("terminal");
+
+        function type() {
+            if (lineIndex < lines.length) {
+                if (charIndex < lines[lineIndex].length) {
+                    terminal.innerHTML += lines[lineIndex].charAt(charIndex);
+                    charIndex++;
+                    setTimeout(type, 30); // Yazım hızı
+                } else {
+                    terminal.innerHTML += "<br>";
+                    lineIndex++;
+                    charIndex = 0;
+                    setTimeout(type, 500); // Satır arası bekleme
+                }
+            }
+        }
+        window.onload = type;
+    </script>
 </body>
-  </html>
-  
+</html>
