@@ -1,4 +1,4 @@
-![Build Status](https://img.shields.io/github/actions/workflow/status/Muhammed-Efe/efe-s-Mansion-1.20.1/main.yml)
+![Build Status](https://img.shields.io/github/actions/workflow/status/Muhammed-Efe/Efe's Mansion/main.yml)
 # efe-s-Mansion-1.20.1
 The World Pack For Minecraft Java 1.20.1
 PLEASE READ❗ README❗ ⤴️
