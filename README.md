@@ -1,3 +1,5 @@
+[![Star History Chart](https://api.star-history.com/svg?repos=MuhammedEfe/Jarvis-Project&type=Date)](https://star-history.com/#MuhammedEfe/Jarvis-Project&Date)
+
 ## 👨‍💻 Geliştirici
 <a href="https://github.com/Muhammed-Efe">
   <img src="https://github.com/Muhammed-Efe.png" width="100px;" alt="Muhammed-Efe"/>
