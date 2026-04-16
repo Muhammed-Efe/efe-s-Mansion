@@ -1,6 +1,6 @@
 ## 👨‍💻 Geliştirici
 <a href="https://github.com/Muhammed-Efe">
-  <img src="https://github.com/MuhammedEfe.png" width="100px;" alt="Muhammed Efe"/>
+  <img src="https://github.com/Muhammed-Efe.png" width="100px;" alt="Muhammed-Efe"/>
   <br />
   <sub><b>Muhammed Efe</b></sub>
 </a>
