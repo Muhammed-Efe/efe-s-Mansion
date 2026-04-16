@@ -19,3 +19,7 @@ Muhammed Efe tarafından geliştirilen, gelişmiş Minecraft asistan sistemi.
 [GitHub Account](https://github.com/Muhammed-Efe)
 
 [İnstagram Account](https://instagram.com/efes_mansion)
+TUR
+Jarvis'i geliştirmeme yardım etmek ister misiniz? Pull request gönderin veya yeni fikirlerinizi Issues kısmında paylaşın!
+ENG
+Would you like to help me improve Jarvis? Submit a pull request or share your new ideas in the Issues section!
