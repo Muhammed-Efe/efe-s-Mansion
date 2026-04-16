@@ -18,4 +18,4 @@ Muhammed Efe tarafından geliştirilen, gelişmiş Minecraft asistan sistemi.
 ## 🔗 Linkler
 [GitHub Account](https://github.com/Muhammed-Efe)
 
-[İnstagram Account](https://instagram.com/efes_mansion
+[İnstagram Account](https://instagram.com/efes_mansion)
