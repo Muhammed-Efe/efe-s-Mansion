@@ -2,13 +2,15 @@
 
 <div align="center">
 
+<div align="center">
+
 # 🤖 JARVIS OS | v1.0.0 - GENESIS
 
 ![Version](https://img.shields.io/badge/Version-1.0.0--Legacy-00ff88?style=for-the-badge&logo=probot&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.20.1-orange?style=for-the-badge&logo=minecraft&logoColor=white)
 ![Dev](https://img.shields.io/badge/Developer-Muhammed%20Efe-blue?style=for-the-badge&logo=github)
-![Next](https://img.shields.io/badge/Next%20Update-v2.0.0--Pre-Released-red?style=for-the-badge&logo=target)
+![Next](https://img.shields.io/badge/Next%20Update-v2.0.0--PreReleased-red?style=for-the-badge&logo=target)
 
 </div>
 
@@ -20,6 +22,7 @@
 > CORE: Genesis v1 Loaded
 > INTERFACE: Holographic Beta
 > v2.0.0: LABORATORY PHASE (85% Completed)
+
 
 # efe-s-Mansion-1.20.1
 The World Pack For Minecraft Java 1.20.1
