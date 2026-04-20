@@ -1,4 +1,4 @@
-[![Star History Chart](https://api.star-history.com/svg?repos=MuhammedEfe/Jarvis-Project&type=Date)](https://star-history.com/#MuhammedEfe/Jarvis-Project&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Muhammed-Efe/Jarvis-Project&type=Date)](https://star-history.com/#Muhammed-Efe/Jarvis-Project&Date)
 
 <div align="center">
 
@@ -8,7 +8,7 @@
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.20.1-orange?style=for-the-badge&logo=minecraft&logoColor=white)
 ![Dev](https://img.shields.io/badge/Developer-Muhammed%20Efe-blue?style=for-the-badge&logo=github)
-![Next](https://img.shields.io/badge/Next%20Update-v2.0.0--Soon-red?style=for-the-badge&logo=target)
+![Next](https://img.shields.io/badge/Next%20Update-v2.0.0--Pre-Released-red?style=for-the-badge&logo=target)
 
 </div>
 
