@@ -21,18 +21,9 @@
 > INTERFACE: Holographic Beta
 > v2.0.0: LABORATORY PHASE (85% Completed)
 
-
-## 👨‍💻 Geliştirici
-<a href="https://github.com/Muhammed-Efe">
-<img src="https://github.com/Muhammed-Efe.png" width="100px;" alt="Muhammed-Efe"/>
-<br />
-<sub><b>Muhammed Efe</b></sub>
-</a>
-
 # efe-s-Mansion-1.20.1
 The World Pack For Minecraft Java 1.20.1
-PLEASE READ❗ README❗ ⤴️
-CHECK GUIDE.PNG PLEASE‼️‼️
+
 ©️
 # 🤖 Jarvis Project v2.0.0
 Muhammed Efe tarafından geliştirilen, gelişmiş Minecraft asistan sistemi.
@@ -50,6 +41,7 @@ Muhammed Efe tarafından geliştirilen, gelişmiş Minecraft asistan sistemi.
 [GitHub Account](https://github.com/Muhammed-Efe)
 
 [İnstagram Account](https://instagram.com/efes_mansion)
+
 TUR
 Jarvis'i geliştirmeme yardım etmek ister misiniz? Pull request gönderin veya yeni fikirlerinizi Issues kısmında paylaşın!
 ENG
